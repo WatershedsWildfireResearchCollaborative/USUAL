@@ -10,12 +10,13 @@ Usage and instructions in progress
 
 - ArcGIS Pro w/ Spatial Analyst and 3D Analyst license
 
-### Accessing Toolkit
+### Accessing Toolkit/Quick Start Guide
 
 1) Clone or download the repository
-2) Open ArcGIS Pro
-3) Use Catalog to navigate to the toolkit
-4) From here each tool can be opened and run
+2) Unzip folder if using direct download
+3) Open ArcGIS Pro
+4) Use Catalog to navigate to the toolkit
+5) From here each tool can be opened and run
 
 ### Recommended Citation
 Manuscript in revision in Environmental Modeling and Software 
