@@ -8,7 +8,7 @@ User manual to be uploaded shortly. Additional help can be accessed by hovering 
 
 ### Required Software
 
-- ArcGIS Pro w/ Spatial Analyst and 3D Analyst license
+- ArcGIS Pro versioin 2.9 or later w/ Spatial Analyst and 3D Analyst license
 
 ### Accessing Toolkit/Quick Start Guide
 
@@ -19,7 +19,7 @@ User manual to be uploaded shortly. Additional help can be accessed by hovering 
 5) From here each tool can be opened and run
 
 ### Recommended Citation
-Manuscript in revision at Environmental Modeling and Software 
+David S. R., Murphy B. P., Czuba J. A., Ahammad M., & Belmont, P. (in revision). USUAL Watershed Tools: a new geospatial toolkit for hydro-geomorphic delineation, Environmental Modelling & Software
 
 ### Known Issues
 ArcGIS does not always allows for tables to be overwritten. Temporary solution: In this case delete the temp file and rerun. 
