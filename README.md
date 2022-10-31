@@ -4,7 +4,7 @@
 The Utah State University AppLied (USUAL) Watershed Toolkit is an ArcGIS Pro toolkit that automates the delineation of watersheds, sub-catchments, river-adjacent interfluves, and discretized river networks with the topological structure and feature attributes necessary for one-dimensional source-to-sink transport modeling in watersheds. 
 
 ### Help Documentation
-User manual to be uploaded shortly. Additional help can be accessed by hovering over inputs in the GUI or clicking on the ? in the upper right corner of each tool. 
+USUAL_USER_MANUAL_V1.pdf contains step by step instructions on how to download the toolkit, add the tookit to ArcGIS Pro, and details all inputs and outputs for each tool. Additional help can be accessed by hovering over inputs in the GUI or clicking on the ? in the upper right corner of each tool. 
 
 ### Required Software
 
@@ -22,7 +22,7 @@ User manual to be uploaded shortly. Additional help can be accessed by hovering 
 David S. R., Murphy B. P., Czuba J. A., Ahammad M., & Belmont, P. (in revision). USUAL Watershed Tools: a new geospatial toolkit for hydro-geomorphic delineation, Environmental Modelling & Software
 
 ### Known Issues
-ArcGIS does not always allows for tables to be overwritten. Temporary solution: In this case delete the temp file and rerun. 
+ArcGIS does not always allows for tables to be overwritten. Temporary solution: In this case delete the temp folder for the respective tool you are running and try rerunning. 
 
 ### Updates/Fixes
 
