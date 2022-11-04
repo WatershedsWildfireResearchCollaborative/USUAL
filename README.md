@@ -19,7 +19,7 @@ USUAL_USER_MANUAL_V1.pdf contains step by step instructions on how to download t
 5) From here each tool can be opened and run
 
 ### Recommended Citation
-David S. R., Murphy B. P., Czuba J. A., Ahammad M., & Belmont, P. (in revision). USUAL Watershed Tools: a new geospatial toolkit for hydro-geomorphic delineation, Environmental Modelling & Software
+David S. R., Murphy B. P., Czuba J. A., Ahammad M., & Belmont, P. (in press). USUAL Watershed Tools: a new geospatial toolkit for hydro-geomorphic delineation, Environmental Modelling & Software
 
 ### Known Issues
 ArcGIS does not always allows for tables to be overwritten. Temporary solution: In this case delete the temp folder for the respective tool you are running and try rerunning. 
