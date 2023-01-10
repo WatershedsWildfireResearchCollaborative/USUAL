@@ -170,7 +170,7 @@ def findcellulararea_sqkm(in_ras):
     ras=arcpy.Raster(in_ras)
     # get maximum value of  raster
     maxrasval=ras.maximum
-    print2(maxrasval,usegui)
+    #print2(maxrasval,usegui)
     del(ras)#delete unneeded data for computers with less ram
     # null out all other data than the maximum
     singcellras = arcpy.sa.SetNull(in_ras, 1, '"VALUE"<'+str(maxrasval))
@@ -405,20 +405,25 @@ dem=out_id+"dem.tif"
 arcpy.gp.ExtractByMask_sa(in_dem, out_id+"_watershed.shp", dem)
 
 #.........Fill in the sinks in the new dem...........
-fillras=Fill(dem)
+# fillras=Fill(dem)
 demf=out_id+"_demf.tif"
-fillras.save(demf)
-del(fillras)
+arcpy.gp.ExtractByMask_sa(demf_tmp, out_id+"_watershed.shp", demf)
+
+# fillras.save(demf)
+# del(fillras)
 #arcpy.gp.Fill_sa(out_id+"dem.tif", out_id+"demf.tif")
 
 #.......Compute flow direction (D8 algorithm)........
 fdr=out_id+"_fdr.tif"
-arcpy.gp.FlowDirection_sa(demf,fdr, "NORMAL")
+arcpy.gp.ExtractByMask_sa(fdrtmp, out_id+"_watershed.shp", fdr)
+# arcpy.gp.FlowDirection_sa(demf,fdr, "NORMAL")
 
 #.......Compute flow accumulation............
-outFlowAccumulation = arcpy.sa.FlowAccumulation(fdr, "", "Float")
+# outFlowAccumulation = arcpy.sa.FlowAccumulation(fdr, "", "Float")
 fac=out_id+"_fac.tif"
-outFlowAccumulation.save(fac)
+arcpy.gp.ExtractByMask_sa(facbuff, out_id+"_watershed.shp", fac)
+
+# outFlowAccumulation.save(fac)
 
 #.........Convert square km to number of pixels.........
 #Calculate area of a cell.
