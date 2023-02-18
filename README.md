@@ -24,6 +24,8 @@ David, S.R., Murphy, B.P., Czuba, J.A., Ahammad, M. and Belmont, P., 2023. USUAL
 ### Known Issues
 ArcGIS does not always allows for tables to be overwritten. Temporary solution: In this case delete the temp folder for the respective tool you are running and try rerunning. 
 
+Filenames with spaces can cause issues. I am working on incorporating a fix for this, however for the moment it is recommended that file names and paths does not contain spaces. 
+
 ### Reporting Issues/Troubleshooting
 Option 1: Submit an issue under the issues tab.
 
