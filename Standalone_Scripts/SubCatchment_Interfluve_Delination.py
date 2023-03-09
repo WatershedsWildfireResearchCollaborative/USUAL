@@ -198,7 +198,7 @@ arcpy.conversion.PolylineToRaster(str_network, flagfield,chan_ras,
 arcpy.management.DeleteField(str_network, flagfield, "DELETE_FIELDS")
 
 
-fdist=out_tmp_id+"_fdist"+".tif"
+fdist=out_tmp_id+"_fdist.tif"
 
 if excl_shp:
     # do this if a reservoir or other area is being exlcuded
