@@ -8,7 +8,7 @@ USUAL_USER_MANUAL_V1.pdf contains step by step instructions on how to download t
 
 ### Required Software
 
-- ArcGIS Pro versioin 2.9 or later w/ Spatial Analyst and 3D Analyst license
+- ArcGIS Pro version 2.9 or later w/ Spatial Analyst and 3D Analyst license
 
 ### Accessing Toolkit/Quick Start Guide
 
