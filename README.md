@@ -22,6 +22,9 @@ USUAL_USER_MANUAL_V1.pdf contains step by step instructions on how to download t
 David, S.R., Murphy, B.P., Czuba, J.A., Ahammad, M. and Belmont, P., 2023. USUAL Watershed Tools: A new geospatial toolkit for hydro-geomorphic delineation. Environmental Modelling & Software, 159, p.105576. https://doi.org/10.1016/j.envsoft.2022.105576
 
 ### Known Issues
+A recent update has caused an issue with the Fluvial Polygon Transects tool. The code will be updated shortly to fix this issue.
+
+
 ArcGIS does not always allows for tables to be overwritten. Temporary solution: In this case delete the temp folder for the respective tool you are running and try rerunning. 
 
 Filenames with spaces can cause issues. I am working on incorporating a fix for this, however for the moment it is recommended that file names and paths does not contain spaces. 
