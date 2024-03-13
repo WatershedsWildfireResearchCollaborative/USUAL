@@ -22,8 +22,6 @@ USUAL_USER_MANUAL_V1.pdf contains step by step instructions on how to download t
 David, S.R., Murphy, B.P., Czuba, J.A., Ahammad, M. and Belmont, P., 2023. USUAL Watershed Tools: A new geospatial toolkit for hydro-geomorphic delineation. Environmental Modelling & Software, 159, p.105576. https://doi.org/10.1016/j.envsoft.2022.105576
 
 ### Known Issues
-A recent update has caused an issue with the Fluvial Polygon Transects tool. The code will be updated shortly to fix this issue.
-
 
 ArcGIS does not always allows for tables to be overwritten. Temporary solution: In this case delete the temp folder for the respective tool you are running and try rerunning. 
 
@@ -35,6 +33,7 @@ Option 1: Submit an issue under the issues tab.
 Option 2: Email scott.david@usu.edu
 
 ### Updates/Fixes
+03/12/2024-Released an update to fix issues with Fluvial Reach Average Width tools for ArcPro versions 3.1 and later
 01/10/2023-Updated Watershed and River Delineation tool to remove some redundant steps. 
 
 ### Publications
