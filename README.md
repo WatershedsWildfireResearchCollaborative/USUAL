@@ -6,6 +6,8 @@ The Utah State University AppLied (USUAL) Watershed Toolkit is an ArcGIS Pro too
 ### Help Documentation
 USUAL_USER_MANUAL_V1.pdf contains step by step instructions on how to download the toolkit, add the tookit to ArcGIS Pro, and details all inputs and outputs for each tool. Additional help can be accessed by hovering over inputs in the GUI or clicking on the ? in the upper right corner of each tool. 
 
+Note: In recent versions the scripts folders need to be in the same folder as the toolbox, as the scripts are no longer embedded in the toolbox. 
+
 ### Required Software
 
 - ArcGIS Pro version 2.9 or later w/ Spatial Analyst and 3D Analyst license
@@ -33,6 +35,7 @@ Option 1: Submit an issue under the issues tab.
 Option 2: Email scott.david@usu.edu
 
 ### Updates/Fixes
+7/31/2024-Released updated version to work with ArcGIS version 3.3 
 03/12/2024-Released an update to fix issues with Fluvial Reach Average Width tools for ArcPro versions 3.1 and later
 01/10/2023-Updated Watershed and River Delineation tool to remove some redundant steps. 
 
