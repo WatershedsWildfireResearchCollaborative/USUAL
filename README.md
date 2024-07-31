@@ -6,7 +6,7 @@ The Utah State University AppLied (USUAL) Watershed Toolkit is an ArcGIS Pro too
 ### Help Documentation
 USUAL_USER_MANUAL_V1.pdf contains step by step instructions on how to download the toolkit, add the tookit to ArcGIS Pro, and details all inputs and outputs for each tool. Additional help can be accessed by hovering over inputs in the GUI or clicking on the ? in the upper right corner of each tool. 
 
-Note: In recent versions the scripts folders need to be in the same folder as the toolbox, as the scripts are no longer embedded in the toolbox. 
+Note: In recent versions the script folder needs to be in the same folder as the toolbox, as the scripts are no longer embedded in the toolbox. 
 
 ### Required Software
 
